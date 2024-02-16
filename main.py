@@ -3,12 +3,12 @@ import json
 import time
 import requests
 import websocket
-
+import os
 status = "dnd"
 
 custom_status = "" #If you don't need a custom status on your profile, just put "" instead of "youtube.com/@SealedSaucer"
 
-usertoken = process.env.TOKEN
+usertoken = os.environ['TOKEN']
 
 headers = {"Authorization": usertoken, "Content-Type": "application/json"}
 
