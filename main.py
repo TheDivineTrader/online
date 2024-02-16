@@ -6,9 +6,9 @@ import websocket
 
 status = "dnd"
 
-custom_status = "cheap services @ .gg/avix" #If you don't need a custom status on your profile, just put "" instead of "youtube.com/@SealedSaucer"
+custom_status = "" #If you don't need a custom status on your profile, just put "" instead of "youtube.com/@SealedSaucer"
 
-usertoken = "Nzk3NTAzMDI5OTI2Mjk3NjEw.GcBNCy.sBYYvQGJqxnJWPdimOubi61elvN1cqY8g7pLk0"
+usertoken = client.process.env.TOKEN
 
 headers = {"Authorization": usertoken, "Content-Type": "application/json"}
 
